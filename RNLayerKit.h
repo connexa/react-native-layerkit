@@ -1,4 +1,4 @@
-#import "RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
 #import <LayerKit/LayerKit.h>
 #import "JSONHelper.h"
 #import "MessageParts.h"
@@ -6,8 +6,7 @@
 #import "LayerQuery.h"
 #import "RCTLog.h"
 #import "RCTUtils.h"
-#import "RCTEventDispatcher.h"
-//#import "RCTEventEmitter.h"
+#import <React/RCTEventDispatcher.h>
 #import <React/RCTEventEmitter.h>
 
 @interface RNLayerKit : RCTEventEmitter <RCTBridgeModule>
